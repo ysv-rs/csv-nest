@@ -17,7 +17,7 @@ Russia,"Moscow,Novosibirsk"
 Command:
 
 ```shell
-csvnest unnest --column cities --delimiter ',' < input.csv > output.csv
+csvunnest --column cities --delimiter ',' < input.csv > output.csv
 ```
 
 which writes to `output.csv` file:
